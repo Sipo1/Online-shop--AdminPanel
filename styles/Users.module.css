@@ -1,0 +1,49 @@
+.wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+}
+.userWrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.userCard{
+    border: 1px solid grey;
+    height: 60px;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    top: 35px;
+    color: orange;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    background: none;
+    color: red;
+    border: none;
+}
+.idPart{
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+.imgTd{
+    width: 100px; 
+    height: 100px;
+    border-radius:200px;
+    background-color: red;
+}

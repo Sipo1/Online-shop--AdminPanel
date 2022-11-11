@@ -1,0 +1,19 @@
+.wrapper {
+    width: 20%;
+    background: #F5F5F5;
+    height: 100vh;
+    
+}
+
+.userImg {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userImg img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

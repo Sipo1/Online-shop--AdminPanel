@@ -1,0 +1,31 @@
+.wrapper{
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.p {
+    color: grey;
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+.p:hover {
+    color: orange;
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+.nav{
+    width: 90%;
+    height: 45px;
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+.active{
+    color: orange;
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+}

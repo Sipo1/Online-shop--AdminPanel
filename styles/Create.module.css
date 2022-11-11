@@ -1,0 +1,102 @@
+/* From uiverse.io by @mrhyddenn */
+.createBtn {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.iconbtn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.2s ease-in-out;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.addbtn:hover {
+    width: 120px;
+}
+
+.addbtn::before,
+.addbtn::after {
+    transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 10px;
+    top: calc(50% - 2px);
+    background: seagreen;
+}
+
+.addbtn::after {
+    right: 14px;
+    overflow: hidden;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.addbtn::before {
+    left: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.iconbtn:focus {
+    outline: none;
+}
+
+.btntxt {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.addbtn:hover::before,
+.addbtn:hover::after {
+    width: 4px;
+    border-radius: 2px;
+}
+
+.addbtn:hover .btntxt {
+    opacity: 1;
+}
+
+.addicon::after,
+.addicon::before {
+    transition: all 0.2s ease-in-out;
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    top: calc(50% - 10px);
+    background: seagreen;
+    overflow: hidden;
+}
+
+.addicon::before {
+    left: 22px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.addicon::after {
+    right: 22px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.addbtn:hover .addicon::before {
+    left: 15px;
+    height: 4px;
+    top: calc(50% - 2px);
+}
+
+.addbtn:hover .addicon::after {
+    right: 15px;
+    height: 4px;
+    top: calc(50% - 2px);
+}
